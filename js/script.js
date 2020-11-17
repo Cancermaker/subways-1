@@ -67,7 +67,7 @@ const menuShow = (event) => {
 const menuHide = (event) => {
 
         const target = event.currentTarget
-    
+            
         $(target).find('.ko_title').stop().animate({'top':'100px'},400)
         $(target).find('.en_title').stop().animate({'top':'145px'},400)
         $(target).find('.desc').stop().animate({'top':'200px','opacity':'0'},500)
@@ -130,7 +130,7 @@ const templateSandwich = (sandwich)  => {
             <span class="en_title">${en_title}</span>
             <span class="kcal">${kcal}</span>
             <p class="desc">${summary}</p>
-            <div class="icon"></div>
+            <div class="icon">${view_id}</div>
         </a>
     </li>
         `;
