@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
   color: #000000;
+
+  font-family: "Gothic A1", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #wrap {
@@ -14,13 +17,15 @@
 
 #wrap > header {
   position: absolute;
-  z-index: 20;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
   height: 175px;
   border-top: 5px solid #009223;
   background-color: #ffffff;
+
+  z-index: 20;
 }
 
 #wrap > header::after {
@@ -386,7 +391,6 @@
   width: 100%;
   height: 80px;
   margin-top: -40px;
-  width: 615px;
 }
 
 #wrap > section #menu-tab > .content {
@@ -399,6 +403,7 @@
 }
 
 #wrap > section #menu-tab > .content > ul {
+  width: 615px;
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -417,15 +422,16 @@
 }
 
 #wrap > section #menu-tab > .content > ul > li.active {
-  color: #009223;
+  color: #46eb6d;
   font-weight: bold;
 }
 
 #wrap > section #menu-tab > .content > ul > li:last-child {
   color: #000000;
 }
+
 #wrap > section #menu-tab > .content > ul > li:last-child.active {
-  color: #e85a1c;
+  color: orange;
 }
 
 #wrap > section #menu-tab > .content > ul > li::after {
